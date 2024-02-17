@@ -51,8 +51,17 @@
 // const sw = new Stopwatch()
 // Check Codepen for stopwatch ideas
 
-function stopwatch() {
-  
+function punchIn() {
+    // runs stopwatch
+    // transfer stopwatch() code here
 }
 
-document.querySelector('#timeclock').onClick(stopwatch);
+function punchOut() {
+    // stop stopwatch, update log, calculate paycheck, update paycheck
+}
+
+function checkPunch() {
+    // Will check to see if punched in or out, run punchIn or punchOut as needed
+}
+
+document.querySelector('#clock').onClick(checkPunch());
